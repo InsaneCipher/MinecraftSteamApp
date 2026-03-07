@@ -39,6 +39,10 @@ When you add Minecraft directly to Steam, Steam launches the Minecraft Launcher 
 
 That's it. Launch Minecraft from Steam and your status will show correctly.
 
+🎨 Customising Your Steam Entry (Name, Icon, Artwork)
+Want Minecraft to look proper in your Steam library with the right icon, cover art, and hero image? This YouTube video walks through the full customisation process — just follow along but use minecraft_steam.exe as your target instead of Minecraft.exe:
+[📺 Add Minecraft To Steam Library by Tinox412] (https://www.youtube.com/watch?v=yk2vDgGguV8)
+
 ---
 
 ## Custom Install Path
@@ -60,8 +64,8 @@ LAUNCHER_PATH = r"C:\XboxGames\Minecraft Launcher\Content\Minecraft.exe"
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/mc-steam-bridge.git
-cd mc-steam-bridge
+git clone https://github.com/InsaneCipher/MinecraftSteamApp.git
+cd MinecraftSteamApp
 
 # Install dependencies
 pip install pyinstaller psutil
