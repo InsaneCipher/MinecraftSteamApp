@@ -41,6 +41,7 @@ That's it. Launch Minecraft from Steam and your status will show correctly.
 
 🎨 Customising Your Steam Entry (Name, Icon, Artwork)
 Want Minecraft to look proper in your Steam library with the right icon, cover art, and hero image? This YouTube video walks through the full customisation process — just follow along but use minecraft_steam.exe as your target instead of Minecraft.exe:
+
 [📺 Add Minecraft To Steam Library by Tinox412](https://www.youtube.com/watch?v=yk2vDgGguV8)
 
 ---
