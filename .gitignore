@@ -1,3 +1,5 @@
-dist/
 build/
-minecraft_steam.spec
+dist/
+*.spec
+__pycache__/
+*.pyc
