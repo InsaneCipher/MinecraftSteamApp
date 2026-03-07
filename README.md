@@ -32,7 +32,7 @@ When you add Minecraft directly to Steam, Steam launches the Minecraft Launcher 
 ## Setup
 
 1. Download `minecraft_steam.exe` from the [Releases](../../releases/latest) page
-2. Place it anywhere on your PC (e.g. `C:\Games\mc-steam-bridge\`)
+2. Place it anywhere on your PC (e.g. `C:\Games\Minecraft Steam Bridge\`)
 3. Open Steam and go to **Library → Add a Game → Add a Non-Steam Game**
 4. Click **Browse** and select `minecraft_steam.exe`
 5. Click **Add Selected Programs**
@@ -72,7 +72,7 @@ cd MinecraftSteamApp
 pip install pyinstaller psutil
 
 # Build the .exe
-pyinstaller --onefile --noconsole minecraft_steam.py
+pyinstaller --onefile --noconsole --icon=minecraft_steam.ico minecraft_steam.py        
 ```
 
 Your `.exe` will be in the `dist/` folder.
@@ -98,7 +98,7 @@ No. The bridge process is tiny and only checks the process list every 3 seconds.
 **Does this work with mods / Forge / Fabric?**
 Yes — it just watches the launcher. Whatever you launch from inside the launcher works normally.
 
-**Will my friends see me playing "Minecraft" or "mc-steam-bridge"?**
+**Will my friends see me playing "Minecraft"?**
 They'll see whatever name you gave the shortcut in Steam. Just name it "Minecraft" when adding it.
 
 **Does this work with other launchers like Prism or CurseForge?**
