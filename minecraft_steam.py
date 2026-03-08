@@ -60,8 +60,7 @@ def main():
     # Create config if it doesn't exist
     if not os.path.exists(CONFIG_FILE):
         create_default_config()
-        time.sleep(5)
-        sys.exit(0)
+        time.sleep(1)
 
     # Read and validate the path from config
     launcher_path = read_config()
