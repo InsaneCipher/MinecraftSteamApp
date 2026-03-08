@@ -9,8 +9,8 @@ A lightweight Windows utility that lets you launch Minecraft through Steam and h
 
 ## Setup
 
-1. Download `minecraft_steam.exe` from the [Releases](../../releases/latest) page
-2. Place it anywhere on your PC (e.g. `C:\Games\Minecraft Steam Bridge\`)
+1. Download `Minecraft_Steam_Bridge.zip` from the [Releases](../../releases/latest) page
+2. Extract the zip anywhere on your PC (e.g. `C:\Games\Minecraft Steam Bridge\`)
 3. Open Steam and go to **Library → Add a Game → Add a Non-Steam Game**
 4. Click **Browse** and select `minecraft_steam.exe`
 5. Click **Add Selected Programs**
